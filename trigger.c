@@ -16,8 +16,6 @@ void cb(int action, NethogsMonitorRecord const *data) {
 
   if(action != NETHOGS_APP_ACTION_SET) return;
   if(data->pid != pid) return;
-  
-  printf("Called: %d - PID: %d - kbps: %f\n", action, data->pid, data->recv_kbs);
 
   if(!triggered) {
     if(data->recv_kbs >= (float) bw) {
