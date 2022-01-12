@@ -1,5 +1,5 @@
 
-A simply program that monitors the bandwidth usage of a specified process and triggers a command when the bandwidth moves above or below a custom setpoint.
+A simple program that monitors the bandwidth usage of a specified process and triggers a command when the bandwidth moves above or below a custom setpoint.
 
 # compile libnethogs
 
