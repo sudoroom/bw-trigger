@@ -8,7 +8,7 @@ git clone https://github.com/raboof/nethogs
 cd nethogs/
 git checkout 2acedff5d70db070c17772c7c4611cf742199607
 
-sudo apt install build-essential libpcap-dev
+sudo apt install build-essential libpcap-dev libncurses-dev
 make libnethogs
 cd src/
 ln -s libnethogs.so.0.8.5-99-g2acedff libnethogs.so
